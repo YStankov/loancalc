@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\yavor.stankov\Desktop\calc\calc\LoanCalculator\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="378cf4ab2756657b9ca53343caa12a04e361107e">
+        <dex dex="C:\Users\yavor.stankov\Desktop\calc\calc\LoanCalculator\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d39073306a85a40f6e31511f5005108f4b4f0a01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yavor.stankov\Desktop\calc\calc\LoanCalculator\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="52985a3888dd57bf384609438e890d322ca33fb3">
+        <dex dex="C:\Users\yavor.stankov\Desktop\calc\calc\LoanCalculator\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cb05a669b0bc8c6179cae48f116ed77195fd4080\classes.dex" />
+    </item>
+
+</items>

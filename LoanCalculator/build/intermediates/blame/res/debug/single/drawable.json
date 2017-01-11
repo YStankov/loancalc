@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\drawable\\background.jpg",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\drawable\\background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\drawable\\percent.png",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\drawable\\percent.png"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\drawable\\dollarsign.png",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\drawable\\dollarsign.png"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\drawable\\period_minus_button.xml",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\drawable\\period_minus_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\drawable\\arrowdown.png",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\drawable\\arrowdown.png"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\drawable\\andanced_button.xml",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\drawable\\andanced_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\drawable\\arrowup.png",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\drawable\\arrowup.png"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\drawable\\period_pluss_button.xml",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\drawable\\period_pluss_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\drawable\\period_value.xml",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\drawable\\period_value.xml"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\drawable\\help.png",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\drawable\\help.png"
+    }
+]

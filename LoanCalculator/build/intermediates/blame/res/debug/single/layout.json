@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\layout\\periodblock.xml",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\layout\\periodblock.xml"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\layout\\resultblock.xml",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\layout\\resultblock.xml"
+    },
+    {
+        "merged": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
+        "source": "C:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\src\\main\\res\\layout\\help.xml"
+    }
+]

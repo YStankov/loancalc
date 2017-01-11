@@ -1,0 +1,24 @@
+<resources>
+    <color name="result">#FFFFFF</color>
+    <color name="odd">#333333</color>
+    <color name="even">#444444</color>
+    <color name="border">#000000</color>
+    <color name="text">#FFFFFF</color>
+    <color name="buttonStart">#F0F0F0</color>
+    <color name="buttonStop">#C3C3C3</color>
+    <color name="buttonBorder">#C3C3C3</color>
+
+    <color name="buttonFocusStart">#FFFFFF</color>
+    <color name="buttonFocusStop">#FFFFFF</color>
+    <color name="buttonFocusBorder">#FFFFFF</color>
+
+    <color name="buttonPressedStart">#FFFFFF</color>
+    <color name="buttonPressedStop">#FFFFFF</color>
+    <color name="buttonPressedBorder">#FFFFFF</color>
+
+    <color name="buttonText">#000000</color>
+
+    <color name="textEditBackground">#FFFFFF</color>
+    <color name="textEditColor">#000000</color>
+    <color name="textEditBorder">#C3C3C3</color>
+</resources>

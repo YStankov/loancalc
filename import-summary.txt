@@ -1,0 +1,190 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* calc\
+* calc\.idea\
+* calc\.idea\compiler.xml
+* calc\.idea\copyright\
+* calc\.idea\copyright\profiles_settings.xml
+* calc\.idea\misc.xml
+* calc\.idea\workspace.xml
+* calc\app\
+* calc\app\build.gradle
+* calc\app\src\
+* calc\app\src\main\
+* calc\app\src\main\AndroidManifest.xml
+* calc\app\src\main\assets\
+* calc\app\src\main\assets\close.png
+* calc\app\src\main\java\
+* calc\app\src\main\java\ee\
+* calc\app\src\main\java\ee\smkv\
+* calc\app\src\main\java\ee\smkv\calc\
+* calc\app\src\main\java\ee\smkv\calc\loan\
+* calc\app\src\main\java\ee\smkv\calc\loan\AbstractScheduleActivity.java
+* calc\app\src\main\java\ee\smkv\calc\loan\CompareActivity.java
+* calc\app\src\main\java\ee\smkv\calc\loan\MainActivity.java
+* calc\app\src\main\java\ee\smkv\calc\loan\PercentValueSwitchButton.java
+* calc\app\src\main\java\ee\smkv\calc\loan\PriceInputFilter.java
+* calc\app\src\main\java\ee\smkv\calc\loan\ScheduleChartActivity.java
+* calc\app\src\main\java\ee\smkv\calc\loan\ScheduleTabActivity.java
+* calc\app\src\main\java\ee\smkv\calc\loan\ScheduleTableActivity.java
+* calc\app\src\main\java\ee\smkv\calc\loan\StoreManager.java
+* calc\app\src\main\java\ee\smkv\calc\loan\TypeHelpActivity.java
+* calc\app\src\main\java\ee\smkv\calc\loan\calculators\
+* calc\app\src\main\java\ee\smkv\calc\loan\calculators\AbstractCalculator.java
+* calc\app\src\main\java\ee\smkv\calc\loan\calculators\AnnuityCalculator.java
+* calc\app\src\main\java\ee\smkv\calc\loan\calculators\Calculator.java
+* calc\app\src\main\java\ee\smkv\calc\loan\calculators\DifferentiatedCalculator.java
+* calc\app\src\main\java\ee\smkv\calc\loan\calculators\FixedPaymentCalculator.java
+* calc\app\src\main\java\ee\smkv\calc\loan\chart\
+* calc\app\src\main\java\ee\smkv\calc\loan\chart\LoanChart.java
+* calc\app\src\main\java\ee\smkv\calc\loan\export\
+* calc\app\src\main\java\ee\smkv\calc\loan\export\AbstractScheduleCreator.java
+* calc\app\src\main\java\ee\smkv\calc\loan\export\CSVScheduleCreator.java
+* calc\app\src\main\java\ee\smkv\calc\loan\export\Exporter.java
+* calc\app\src\main\java\ee\smkv\calc\loan\export\FileCreationException.java
+* calc\app\src\main\java\ee\smkv\calc\loan\export\HtmlScheduleCreator.java
+* calc\app\src\main\java\ee\smkv\calc\loan\export\TextScheduleCreator.java
+* calc\app\src\main\java\ee\smkv\calc\loan\model\
+* calc\app\src\main\java\ee\smkv\calc\loan\model\Loan.java
+* calc\app\src\main\java\ee\smkv\calc\loan\model\Payment.java
+* calc\app\src\main\java\ee\smkv\calc\loan\utils\
+* calc\app\src\main\java\ee\smkv\calc\loan\utils\EditTextNumberFormatException.java
+* calc\app\src\main\java\ee\smkv\calc\loan\utils\ErrorDialogWrapper.java
+* calc\app\src\main\java\ee\smkv\calc\loan\utils\MyTextWatcher.java
+* calc\app\src\main\java\ee\smkv\calc\loan\utils\OkDialogWrapper.java
+* calc\app\src\main\java\ee\smkv\calc\loan\utils\ViewUtil.java
+* calc\app\src\main\res\
+* calc\app\src\main\res\drawable-hdpi\
+* calc\app\src\main\res\drawable-hdpi\ic_tab_chart_selected.png
+* calc\app\src\main\res\drawable-hdpi\ic_tab_chart_unselected.png
+* calc\app\src\main\res\drawable-hdpi\ic_tab_table_selected.png
+* calc\app\src\main\res\drawable-hdpi\ic_tab_table_unselected.png
+* calc\app\src\main\res\drawable-hdpi\icon.png
+* calc\app\src\main\res\drawable-ldpi\
+* calc\app\src\main\res\drawable-ldpi\ic_tab_chart_selected.png
+* calc\app\src\main\res\drawable-ldpi\ic_tab_chart_unselected.png
+* calc\app\src\main\res\drawable-ldpi\ic_tab_table_selected.png
+* calc\app\src\main\res\drawable-ldpi\ic_tab_table_unselected.png
+* calc\app\src\main\res\drawable-ldpi\icon.png
+* calc\app\src\main\res\drawable-mdpi\
+* calc\app\src\main\res\drawable-mdpi\ic_tab_chart_selected.png
+* calc\app\src\main\res\drawable-mdpi\ic_tab_chart_unselected.png
+* calc\app\src\main\res\drawable-mdpi\ic_tab_table_selected.png
+* calc\app\src\main\res\drawable-mdpi\ic_tab_table_unselected.png
+* calc\app\src\main\res\drawable-mdpi\icon.png
+* calc\app\src\main\res\drawable\
+* calc\app\src\main\res\drawable\add.png
+* calc\app\src\main\res\drawable\advanced_button_background.xml
+* calc\app\src\main\res\drawable\andanced_button_focused.xml
+* calc\app\src\main\res\drawable\andanced_button_normal.xml
+* calc\app\src\main\res\drawable\andanced_button_pressed.xml
+* calc\app\src\main\res\drawable\arrowdown.png
+* calc\app\src\main\res\drawable\arrowup.png
+* calc\app\src\main\res\drawable\background.xml
+* calc\app\src\main\res\drawable\bg.gif
+* calc\app\src\main\res\drawable\calculator.png
+* calc\app\src\main\res\drawable\chart.png
+* calc\app\src\main\res\drawable\clean.png
+* calc\app\src\main\res\drawable\close.png
+* calc\app\src\main\res\drawable\compare.png
+* calc\app\src\main\res\drawable\excel.png
+* calc\app\src\main\res\drawable\help.png
+* calc\app\src\main\res\drawable\ic_tab_chart.xml
+* calc\app\src\main\res\drawable\ic_tab_table.xml
+* calc\app\src\main\res\drawable\icon.png
+* calc\app\src\main\res\drawable\mail.png
+* calc\app\src\main\res\drawable\minus.png
+* calc\app\src\main\res\drawable\paypal.png
+* calc\app\src\main\res\drawable\percent.png
+* calc\app\src\main\res\drawable\period_minus_button.xml
+* calc\app\src\main\res\drawable\period_pluss_button.xml
+* calc\app\src\main\res\drawable\period_value.xml
+* calc\app\src\main\res\drawable\table.png
+* calc\app\src\main\res\drawable\tablesmall.png
+* calc\app\src\main\res\drawable\value.png
+* calc\app\src\main\res\layout-large-land\
+* calc\app\src\main\res\layout-large-land\main.xml
+* calc\app\src\main\res\layout-large-port\
+* calc\app\src\main\res\layout-large-port\main.xml
+* calc\app\src\main\res\layout-xlarge-land\
+* calc\app\src\main\res\layout-xlarge-land\main.xml
+* calc\app\src\main\res\layout-xlarge-port\
+* calc\app\src\main\res\layout-xlarge-port\main.xml
+* calc\app\src\main\res\layout\
+* calc\app\src\main\res\layout\compare.xml
+* calc\app\src\main\res\layout\help.xml
+* calc\app\src\main\res\layout\main.xml
+* calc\app\src\main\res\layout\periodblock.xml
+* calc\app\src\main\res\layout\roundedshape.xml
+* calc\app\src\main\res\layout\schedule.xml
+* calc\app\src\main\res\menu\
+* calc\app\src\main\res\menu\mainmenu.xml
+* calc\app\src\main\res\menu\schedulemenu.xml
+* calc\app\src\main\res\values-es\
+* calc\app\src\main\res\values-es\strings.xml
+* calc\app\src\main\res\values-et\
+* calc\app\src\main\res\values-et\strings.xml
+* calc\app\src\main\res\values-ru\
+* calc\app\src\main\res\values-ru\strings.xml
+* calc\app\src\main\res\values\
+* calc\app\src\main\res\values\colors.xml
+* calc\app\src\main\res\values\strings.xml
+* calc\app\src\main\resources\
+* calc\app\src\main\resources\ee\
+* calc\app\src\main\resources\ee\smkv\
+* calc\app\src\main\resources\ee\smkv\calc\
+* calc\app\src\main\resources\ee\smkv\calc\loan\
+* calc\app\src\main\resources\ee\smkv\calc\loan\chart\
+* calc\app\src\main\resources\ee\smkv\calc\loan\chart\RGraph.common.core.js
+* calc\app\src\main\resources\ee\smkv\calc\loan\chart\RGraph.line.js
+* calc\app\src\main\resources\ee\smkv\calc\loan\chart\RGraph.pie.js
+* calc\app\src\main\resources\ee\smkv\calc\loan\chart\chart.js
+* calc\build.gradle
+* calc\gradle\
+* calc\gradle\wrapper\
+* calc\gradle\wrapper\gradle-wrapper.jar
+* calc\gradle\wrapper\gradle-wrapper.properties
+* calc\gradlew
+* calc\gradlew.bat
+* calc\local.properties
+* calc\settings.gradle
+* test\
+* test\.svn\
+* test\.svn\all-wcprops
+* test\.svn\entries
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\ee\smkv\calc\loan\chart\chart.js => app\src\main\resources\ee\smkv\calc\loan\chart\chart.js
+* src\ee\smkv\calc\loan\chart\RGraph.common.core.js => app\src\main\resources\ee\smkv\calc\loan\chart\RGraph.common.core.js
+* src\ee\smkv\calc\loan\chart\RGraph.line.js => app\src\main\resources\ee\smkv\calc\loan\chart\RGraph.line.js
+* src\ee\smkv\calc\loan\chart\RGraph.pie.js => app\src\main\resources\ee\smkv\calc\loan\chart\RGraph.pie.js
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
