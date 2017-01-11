@@ -1,0 +1,6 @@
+*.lock
+.gradle/2.14.1/taskArtifacts/cache.properties.lock
+local.properties
+*.bin
+*.lock
+*.class
