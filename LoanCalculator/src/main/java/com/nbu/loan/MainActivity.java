@@ -31,8 +31,6 @@ import java.math.BigDecimal;
 
 
 public class MainActivity extends Activity implements AdapterView.OnItemSelectedListener, View.OnClickListener {
-    public static final String SETTINGS_NAME = MainActivity.class.getName();
-
     public static final LoanCalculator[] CALCULATORS = new LoanCalculator[]{new AnnuityLoanCalculator(), new DifferentiatedLoanCalculator(), new FixedPaymentLoanCalculator()};
 
     private static final String ZERO = "0";
