@@ -70,10 +70,10 @@ public class AnnuityLoanCalculator extends AbstractLoanCalculator {
     public static void main(String[] args) {
     AnnuityLoanCalculator calculator = new AnnuityLoanCalculator();
     double eff = calculator.calcEffRateUsingIterativeApproach(1, 1000, new double[]{600, 600}, 12);
-    System.out.println( (eff * 100) + "%" );// Should by ~ 13.07%
+    System.out.println( (eff * 100) + "%" );
 
     eff = calculator.calcEffRateUsingIterativeApproach(1, 1000, new double[]{1200}, 18);
-    System.out.println( (eff * 100) + "%" ); // Should by ~ 12.92%
+    System.out.println( (eff * 100) + "%" );
   }
 
 

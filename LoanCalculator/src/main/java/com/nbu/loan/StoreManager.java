@@ -10,9 +10,6 @@ import com.nbu.loan.model.Loan;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-/**
- * @author Andrei Samkov
- */
 public class StoreManager {
     SharedPreferences settings;
     static final String TAG = "StoreManager";

@@ -3,9 +3,6 @@ package com.nbu.loan.model;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-/**
- * @author Andrei Samkov
- */
 public class Payment implements Serializable {
     private static final long serialVersionUID = 1L;
     private Integer nr = 0;
