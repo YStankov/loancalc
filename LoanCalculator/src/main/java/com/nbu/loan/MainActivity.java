@@ -69,9 +69,6 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
   private AlertDialog effectiveRateToNominalDialog;
 
 
-  /**
-   * Called when the activity is first created.
-   */
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -185,9 +182,6 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
     effectiveRateToNominalDialogBuilder.setPositiveButton(this.getString(R.string.calc), new DialogInterface.OnClickListener() {
       public void onClick(DialogInterface dialog, int whichButton) {
         try {
-          // http://www.miniwebtool.com/nominal-interest-rate-calculator/
-          // i = n × ((1 + r)1/n - 1)
-          // nominalRate = 12 × ((1 + effectiveRate)1/12 - 1)
           BigDecimal effectiveRate = ViewUtil.getBigDecimalValue(effectiveRateEdit);
           BigDecimal nominalRate = new BigDecimal(1200 * (Math.pow(1 + effectiveRate.doubleValue() / 100, (double)1 / (double)12) - 1));
           interestEdit.setText(ViewUtil.formatBigDecimal(nominalRate));
@@ -521,7 +515,6 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
   }
 
   public void onNothingSelected(AdapterView<?> adapterView) {
-    //ignore
   }
 
     private void cleanForm() {
@@ -541,11 +534,9 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
 
     if (newConfig.hardKeyboardHidden == Configuration.HARDKEYBOARDHIDDEN_NO) {
       setInputType(InputType.TYPE_NULL, amountEdit, interestEdit, fixedPaymentEdit, periodYearEdit, periodMonthEdit, downPaymentEdit, disposableCommissionEdit, monthlyCommissionEdit, effectiveRateEdit , residueEdit);
-      //Toast.makeText(this, "HARD-keyboard", Toast.LENGTH_SHORT).show();
     }
     else {
       setInputType(InputType.TYPE_CLASS_PHONE, amountEdit, interestEdit, fixedPaymentEdit, periodYearEdit, periodMonthEdit, downPaymentEdit, disposableCommissionEdit, monthlyCommissionEdit, effectiveRateEdit , residueEdit);
-      //Toast.makeText(this, "SOFT-keyboard", Toast.LENGTH_SHORT).show();
     }
 
     super.onConfigurationChanged(newConfig);

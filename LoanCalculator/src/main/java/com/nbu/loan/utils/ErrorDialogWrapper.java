@@ -4,9 +4,6 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 
-/**
- * @author Andrei Samkov
- */
 public class ErrorDialogWrapper implements DialogInterface.OnClickListener {
 
     private AlertDialog dialog;
