@@ -1,7 +1,0 @@
-#Wed Jan 11 17:37:51 EET 2017
-base.0=C\:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_d39073306a85a40f6e31511f5005108f4b4f0a01
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_cb05a669b0bc8c6179cae48f116ed77195fd4080\\classes.dex
-base.1=C\:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_cb05a669b0bc8c6179cae48f116ed77195fd4080
-file.0=C\:\\Users\\yavor.stankov\\Desktop\\calc\\calc\\LoanCalculator\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_d39073306a85a40f6e31511f5005108f4b4f0a01\\classes.dex

@@ -14,7 +14,7 @@ public abstract class MyTextWatcher implements TextWatcher {
     }
 
     public void afterTextChanged(Editable editable) {
-        if( value == null || !value.toString().equals(editable.toString())){
+        if (value == null || !value.toString().equals(editable.toString())) {
             onChange(editable);
         }
     }

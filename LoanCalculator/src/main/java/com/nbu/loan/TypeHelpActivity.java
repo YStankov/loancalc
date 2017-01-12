@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class TypeHelpActivity extends Activity  implements  View.OnClickListener{
+public class TypeHelpActivity extends Activity implements View.OnClickListener {
     private Button closeButton;
 
     @Override
@@ -15,7 +15,7 @@ public class TypeHelpActivity extends Activity  implements  View.OnClickListener
     }
 
     public void onClick(View view) {
-        if(view == closeButton){
+        if (view == closeButton) {
             finish();
         }
     }

@@ -9,19 +9,17 @@ import java.util.ArrayList;
 import static java.math.BigDecimal.*;
 
 public class AnnuityLoanCalculator extends AbstractLoanCalculator {
-
-
     public void calculate(Loan loan) {
         BigDecimal amount = calculateAmountWithDownPayment(loan);
         loan.setResiduePayment(getResiduePayment(loan));
         addDisposableCommission(loan, amount);
 
-        boolean hasResidue = loan.getResiduePayment().compareTo( BigDecimal.ZERO) > 0;
+        boolean hasResidue = loan.getResiduePayment().compareTo(BigDecimal.ZERO) > 0;
 
 
         BigDecimal interestMonthly = loan.getInterest().divide(new BigDecimal("1200"), SCALE, MODE);
         BigDecimal oneAndInterest = ONE.add(interestMonthly);
-        Integer period = hasResidue ?  loan.getPeriod() - 1 : loan.getPeriod();
+        Integer period = hasResidue ? loan.getPeriod() - 1 : loan.getPeriod();
 
         BigDecimal powered = ONE.divide(oneAndInterest.pow(period), SCALE, MODE);
         BigDecimal divider = ONE.subtract(powered);
@@ -30,7 +28,7 @@ public class AnnuityLoanCalculator extends AbstractLoanCalculator {
 
         BigDecimal balance = amount;
         ArrayList<Payment> payments = new ArrayList<Payment>();
-        BigDecimal residueInterest = hasResidue? loan.getResiduePayment().multiply(interestMonthly) : BigDecimal.ZERO;
+        BigDecimal residueInterest = hasResidue ? loan.getResiduePayment().multiply(interestMonthly) : BigDecimal.ZERO;
         payment = payment.add(residueInterest);
         int i = 0;
         for (; i < period; i++) {
@@ -47,7 +45,7 @@ public class AnnuityLoanCalculator extends AbstractLoanCalculator {
             payments.add(p);
             balance = balance.subtract(principal);
         }
-        if(hasResidue){
+        if (hasResidue) {
             payment = loan.getResiduePayment();
             BigDecimal principal = payment;
             Payment p = new Payment();
@@ -68,14 +66,13 @@ public class AnnuityLoanCalculator extends AbstractLoanCalculator {
 
 
     public static void main(String[] args) {
-    AnnuityLoanCalculator calculator = new AnnuityLoanCalculator();
-    double eff = calculator.calcEffRateUsingIterativeApproach(1, 1000, new double[]{600, 600}, 12);
-    System.out.println( (eff * 100) + "%" );
+        AnnuityLoanCalculator calculator = new AnnuityLoanCalculator();
+        double eff = calculator.calcEffRateUsingIterativeApproach(1, 1000, new double[]{600, 600}, 12);
+        System.out.println((eff * 100) + "%");
 
-    eff = calculator.calcEffRateUsingIterativeApproach(1, 1000, new double[]{1200}, 18);
-    System.out.println( (eff * 100) + "%" );
-  }
-
+        eff = calculator.calcEffRateUsingIterativeApproach(1, 1000, new double[]{1200}, 18);
+        System.out.println((eff * 100) + "%");
+    }
 
 
 }

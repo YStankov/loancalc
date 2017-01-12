@@ -12,17 +12,17 @@ public class DifferentiatedLoanCalculator extends AbstractLoanCalculator {
     public void calculate(Loan loan) {
         BigDecimal amount = calculateAmountWithDownPayment(loan);
         loan.setResiduePayment(getResiduePayment(loan));
-        boolean hasResidue = loan.getResiduePayment().compareTo( BigDecimal.ZERO) > 0;
+        boolean hasResidue = loan.getResiduePayment().compareTo(BigDecimal.ZERO) > 0;
         addDisposableCommission(loan, amount);
 
         BigDecimal interestMonthly = loan.getInterest().divide(new BigDecimal("1200"), SCALE, MODE);
-        Integer period = hasResidue ?  loan.getPeriod() - 1 : loan.getPeriod();
-        BigDecimal residueInterest = hasResidue? loan.getResiduePayment().multiply(interestMonthly) : BigDecimal.ZERO;
+        Integer period = hasResidue ? loan.getPeriod() - 1 : loan.getPeriod();
+        BigDecimal residueInterest = hasResidue ? loan.getResiduePayment().multiply(interestMonthly) : BigDecimal.ZERO;
 
         BigDecimal monthlyAmount = amount.subtract(loan.getResiduePayment()).divide(new BigDecimal(period), SCALE, MODE);
         BigDecimal currentAmount = amount;
         ArrayList<Payment> payments = new ArrayList<Payment>();
-        int i = 0 ;
+        int i = 0;
         for (; i < period; i++) {
             BigDecimal interest = currentAmount.multiply(interestMonthly);
             BigDecimal payment = interest.add(monthlyAmount);
@@ -39,7 +39,7 @@ public class DifferentiatedLoanCalculator extends AbstractLoanCalculator {
 
             currentAmount = currentAmount.subtract(monthlyAmount);
         }
-        if(hasResidue){
+        if (hasResidue) {
             BigDecimal payment = loan.getResiduePayment();
             BigDecimal principal = payment;
             Payment p = new Payment();
@@ -57,7 +57,6 @@ public class DifferentiatedLoanCalculator extends AbstractLoanCalculator {
         loan.setPayments(payments);
         loan.setEffectiveInterestRate(calculateEffectiveInterestRate(loan));
     }
-
 
 
 }

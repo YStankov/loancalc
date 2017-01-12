@@ -7,12 +7,10 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 
 public class FixedPaymentLoanCalculator extends AbstractLoanCalculator {
-
-
     public void calculate(Loan loan) {
         BigDecimal currentAmount = calculateAmountWithDownPayment(loan);
         loan.setResiduePayment(getResiduePayment(loan));
-        boolean hasResidue = loan.getResiduePayment().compareTo( BigDecimal.ZERO) > 0;
+        boolean hasResidue = loan.getResiduePayment().compareTo(BigDecimal.ZERO) > 0;
 
         addDisposableCommission(loan, currentAmount);
 
@@ -50,7 +48,7 @@ public class FixedPaymentLoanCalculator extends AbstractLoanCalculator {
             currentAmount = currentAmount.subtract(ma);
             i++;
         }
-        if(hasResidue){
+        if (hasResidue) {
             interest = currentAmount.multiply(interestMonthly);
             payment = currentAmount.add(interest);
             ma = currentAmount;

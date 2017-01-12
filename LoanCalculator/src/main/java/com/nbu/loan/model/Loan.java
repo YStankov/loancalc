@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+
 public class Loan implements Serializable {
     private static final long serialVersionUID = 1L;
 
@@ -70,8 +71,8 @@ public class Loan implements Serializable {
     public BigDecimal getTotalAmount() {
         BigDecimal total = amount.add(totalInterests);
 
-        if( getCommissionsTotal() != null && getCommissionsTotal().compareTo(BigDecimal.ZERO) != 0){
-            total = total.add( getCommissionsTotal());
+        if (getCommissionsTotal() != null && getCommissionsTotal().compareTo(BigDecimal.ZERO) != 0) {
+            total = total.add(getCommissionsTotal());
         }
         return total;
     }
@@ -210,11 +211,11 @@ public class Loan implements Serializable {
     }
 
     public BigDecimal getEffectiveInterestRate() {
-      return effectiveInterestRate;
+        return effectiveInterestRate;
     }
 
     public void setEffectiveInterestRate(BigDecimal effectiveInterestRate) {
-      this.effectiveInterestRate = effectiveInterestRate;
+        this.effectiveInterestRate = effectiveInterestRate;
     }
 
     public BigDecimal getResiduePayment() {

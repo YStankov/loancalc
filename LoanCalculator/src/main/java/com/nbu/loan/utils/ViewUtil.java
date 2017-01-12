@@ -1,6 +1,7 @@
 package com.nbu.loan.utils;
 
 import android.widget.EditText;
+
 import com.nbu.loan.calcs.LoanCalculator;
 
 import java.math.BigDecimal;
@@ -10,6 +11,7 @@ import java.util.Locale;
 
 public class ViewUtil {
     private static final DecimalFormat DECIMAL_FORMAT;
+
     static {
         DecimalFormatSymbols symbols = new DecimalFormatSymbols(Locale.UK);
         symbols.setDecimalSeparator('.');
@@ -39,6 +41,6 @@ public class ViewUtil {
     }
 
     public static String formatBigDecimal(BigDecimal number) {
-        return DECIMAL_FORMAT.format(number != null ? number.setScale(2 , LoanCalculator.MODE) : BigDecimal.ZERO);
+        return DECIMAL_FORMAT.format(number != null ? number.setScale(2, LoanCalculator.MODE) : BigDecimal.ZERO);
     }
 }

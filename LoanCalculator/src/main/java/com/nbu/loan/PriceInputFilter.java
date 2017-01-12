@@ -10,21 +10,20 @@ import android.text.Spanned;
 
 public class PriceInputFilter implements InputFilter {
 
-  public CharSequence filter(CharSequence source, int start, int end,  Spanned dest, int dstart, int dend) {
+    public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
 
-    String checkedText = dest.toString() + source.toString();
+        String checkedText = dest.toString() + source.toString();
 
 
-    try {
+        try {
 
-      new BigDecimal(checkedText.replace(',','.'));
+            new BigDecimal(checkedText.replace(',', '.'));
+        } catch (Exception e) {
+            return "";
+        }
+
+
+        return null;
     }
-    catch (Exception e) {
-      return "";
-    }
-
-
-    return null;
-  }
 
 }
