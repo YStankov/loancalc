@@ -18,8 +18,8 @@ public class FixedPaymentLoanCalculator extends AbstractLoanCalculator {
         BigDecimal monthlyAmount = loan.getFixedPayment();
 
         BigDecimal ma = monthlyAmount;
-        BigDecimal interest = BigDecimal.ZERO;
-        BigDecimal payment = BigDecimal.ZERO;
+        BigDecimal interest;
+        BigDecimal payment;
         int i = 0;
 
         if (loan.getAmount().divide(loan.getFixedPayment(), 0, MODE).intValue() > 1000) {

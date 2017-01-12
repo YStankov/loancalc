@@ -7,8 +7,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 
 public class DifferentiatedLoanCalculator extends AbstractLoanCalculator {
-    private static final BigDecimal TWO = new BigDecimal(2);
-
     public void calculate(Loan loan) {
         BigDecimal amount = calculateAmountWithDownPayment(loan);
         loan.setResiduePayment(getResiduePayment(loan));

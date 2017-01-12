@@ -1,6 +1,5 @@
 package com.nbu.loan;
 
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -475,18 +474,6 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
     }
 
     public void onNothingSelected(AdapterView<?> adapterView) {
-    }
-
-    private void cleanForm() {
-        cleanEdit("", amountEdit, interestEdit, fixedPaymentEdit, downPaymentEdit, disposableCommissionEdit, monthlyCommissionEdit, effectiveRateEdit, residueEdit);
-        cleanEdit("0", periodYearEdit, periodMonthEdit);
-    }
-
-    private void cleanEdit(String value, EditText... editTexts) {
-        for (EditText editText : editTexts) {
-            editText.getText().clear();
-            editText.getText().append(value);
-        }
     }
 
     @Override

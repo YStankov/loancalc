@@ -1,12 +1,9 @@
 package com.nbu.loan;
 
 import java.math.BigDecimal;
-import java.text.DecimalFormatSymbols;
-import java.util.regex.Pattern;
 
 import android.text.InputFilter;
 import android.text.Spanned;
-
 
 public class PriceInputFilter implements InputFilter {
 
@@ -14,14 +11,12 @@ public class PriceInputFilter implements InputFilter {
 
         String checkedText = dest.toString() + source.toString();
 
-
         try {
 
             new BigDecimal(checkedText.replace(',', '.'));
         } catch (Exception e) {
             return "";
         }
-
 
         return null;
     }
