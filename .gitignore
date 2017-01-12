@@ -1,6 +1,47 @@
-*.lock
-.gradle/2.14.1/taskArtifacts/cache.properties.lock
+# Android Studio, Gradle
+.idea/
+.gradle
+/*/local.properties
+/*/out
+build/
+/*/build
+/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+
+# Generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
 local.properties
-*.bin
-*.lock
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Built application files
+*.apk
+*.ap_
+
+# Files for the dex VM
+*.dex
+
+# Java class files
 *.class
+
+# Signing files
+.signing/
+
+# OS clutter
+.DS_Store
+.DS_Store?
+Thumbs.db
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
